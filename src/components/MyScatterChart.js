@@ -37,13 +37,13 @@ const renderCustomizedLabel = (props) => {
     }
 
     if (samePositionCount === 2) {
-        dx = value.length / 2 + "ex";
-        dy = "2ex";
+        dx = value.length / 2;
+        dy = 1;
     }
 
     if (samePositionCount === 3) {
-        dx = -value.length / 2 + "ex";
-        dy = "2ex";
+        dx = -value.length / 2;
+        dy = 1;
     }
 
 
@@ -52,16 +52,16 @@ const renderCustomizedLabel = (props) => {
 
         var opts = {
             x: x,
-            dx: dx,
-            dy: dy
+            dx: dx + "ex",
+            dy: dy + "em"
         };
 
         if (words.length > 2) {
             return words.map((word, index) => {
-                const offset = index === 0 ? -words.length + 1 : 1;
+                const offset = index === 0 ? (dy !== 0 ? dy + 1 : 0) - words.length + 1 : 1;
                 opts.dy = offset + "em";
-                opts.dx = dx / words.length;
-                return <tspan {...opts}>{word}</tspan>;
+                opts.dx = dx / words.length + "ex";
+                return <tspan key={index} {...opts}>{word}</tspan>;
             });
         }
 
