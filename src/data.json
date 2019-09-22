@@ -1,0 +1,207 @@
+[
+  {
+    "name": "Java",
+    "want": 90,
+    "can": 100
+  },
+  {
+    "name": "AWS",
+    "want": 100,
+    "can": 80
+  },
+  {
+    "name": "Javascript",
+    "want": 70,
+    "can": 70
+  },
+  {
+    "name": "Spring (+Boot)",
+    "want": 80,
+    "can": 80
+  },
+  {
+    "name": "Swing",
+    "want": 30,
+    "can": 60
+  },
+  {
+    "name": "Microservices",
+    "want": 100,
+    "can": 80
+  },
+  {
+    "name": "Monolit development",
+    "want": 30,
+    "can": 100
+  },
+  {
+    "name": "Multithreaded programming",
+    "want": 100,
+    "can": 80
+  },
+  {
+    "name": "AngularJS",
+    "want": 50,
+    "can": 70
+  },
+  {
+    "name": "Angular",
+    "want": 50,
+    "can": 50
+  },
+  {
+    "name": "ReactJS",
+    "want": 70,
+    "can": 50
+  },
+  {
+    "name": "C++",
+    "want": 50,
+    "can": 30
+  },
+  {
+    "name": "NodeJS",
+    "want": 50,
+    "can": 50
+  },
+  {
+    "name": "JSP",
+    "want": 10,
+    "can": 80
+  },
+  {
+    "name": "GWT",
+    "want": 10,
+    "can": 70
+  },
+  {
+    "name": "JavaEE",
+    "want": 20,
+    "can": 50
+  },
+  {
+    "name": "Jenkins",
+    "want": 70,
+    "can": 90
+  },
+  {
+    "name": "Teamcity",
+    "want": 70,
+    "can": 60
+  },
+  {
+    "name": "Shippable",
+    "want": 40,
+    "can": 40
+  },
+  {
+    "name": "Docker",
+    "want": 80,
+    "can": 80
+  },
+  {
+    "name": "Docker Swarm",
+    "want": 40,
+    "can": 60
+  },
+  {
+    "name": "JMeter",
+    "want": 60,
+    "can": 40
+  },
+  {
+    "name": "OpenSource SQLs",
+    "want": 70,
+    "can": 70
+  },
+  {
+    "name": "NoSQLs",
+    "want": 80,
+    "can": 70
+  },
+  {
+    "name": "Selenium",
+    "want": 50,
+    "can": 90
+  },
+  {
+    "name": "Maven",
+    "want": 40,
+    "can": 80
+  },
+  {
+    "name": "Gradle",
+    "want": 80,
+    "can": 50
+  },
+  {
+    "name": "Git",
+    "want": 100,
+    "can": 90
+  },
+  {
+    "name": "Subversion",
+    "want": 20,
+    "can": 90
+  },
+  {
+    "name": "Nginx",
+    "want": 90,
+    "can": 80
+  },
+  {
+    "name": "ApplicationServers",
+    "want": 80,
+    "can": 80
+  },
+  {
+    "name": "Grafana",
+    "want": 90,
+    "can": 70
+  },
+  {
+    "name": "Event Driven Architecture",
+    "want": 100,
+    "can": 80
+  },
+  {
+    "name": "Data Intensive Applications",
+    "want": 100,
+    "can": 50
+  },
+  {
+    "name": "Ansible",
+    "want": 30,
+    "can": 20
+  },
+  {
+    "name": "Protobuf",
+    "want": 90,
+    "can": 50
+  },
+  {
+    "name": "ExtJS",
+    "want": 20,
+    "can": 40
+  },
+  {
+    "name": "RestAPI",
+    "want": 90,
+    "can": 90
+  },
+  {
+    "name": "RPC",
+    "want": 40,
+    "can": 80
+  },
+  {
+    "name": "CSS",
+    "want": 70,
+    "can": 60
+  },
+  {
+    "name": "HTML",
+    "want": 70,
+    "can": 90
+  }
+]
