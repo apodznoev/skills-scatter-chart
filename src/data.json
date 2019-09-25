@@ -30,7 +30,7 @@
     "can": 80
   },
   {
-    "name": "Monolit development",
+    "name": "Monolithic applications development",
     "want": 30,
     "can": 100
   },
@@ -57,7 +57,7 @@
   {
     "name": "C++",
     "want": 50,
-    "can": 30
+    "can": 20
   },
   {
     "name": "NodeJS",
@@ -136,7 +136,7 @@
   },
   {
     "name": "Git",
-    "want": 100,
+    "want": 90,
     "can": 90
   },
   {
@@ -147,10 +147,10 @@
   {
     "name": "Nginx",
     "want": 90,
-    "can": 80
+    "can": 70
   },
   {
-    "name": "ApplicationServers",
+    "name": "Application Servers",
     "want": 80,
     "can": 80
   },
@@ -172,7 +172,7 @@
   {
     "name": "Ansible",
     "want": 30,
-    "can": 20
+    "can": 30
   },
   {
     "name": "Protobuf",
@@ -203,5 +203,15 @@
     "name": "HTML",
     "want": 70,
     "can": 90
+  },
+  {
+    "name": "Serverless",
+    "want": 100,
+    "can": 40
+  },
+  {
+    "name": "Chat bots",
+    "want": 90,
+    "can": 40
   }
 ]

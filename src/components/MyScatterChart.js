@@ -99,9 +99,21 @@ class MyScatterChart extends Component {
         const maxData = 100;
         const padData = 30;
         const ticks = [25, 50, 75];
-        const noAxisTick = (x) => {
+        const xAxisTick = (x) => {
+            if(x === 25)
+                return "Very beginner";
+            if(x === 75)
+                return "Proficient";
             return "";
         };
+        const yAxisTick = (x) => {
+            if(x === 25)
+                return "Low interest";
+            if(x === 75)
+                return "Passioned about";
+            return "";
+        };
+
         return (
             <ScatterChart width={1000} height={800} margin={{top: 20, right: 20, bottom: 20, left: 20}}>
                 <CartesianGrid strokeDasharray="20 20"/>
@@ -110,10 +122,10 @@ class MyScatterChart extends Component {
                     stroke={"#868686"}
                     domain={[minData, maxData]}
                     dataKey="can"
-                    label="Proficiency"
+                    label="Proficiency level"
                     allowDataOverlow={true}
                     padding={{right: padData}}
-                    tickFormatter={noAxisTick}
+                    tickFormatter={xAxisTick}
                     ticks={ticks}
                 />
                 <YAxis
@@ -121,10 +133,10 @@ class MyScatterChart extends Component {
                     stroke={"#868686"}
                     domain={[minData, maxData]}
                     dataKey="want"
-                    label="Interest"
+                    label="Interest level"
                     allowDataOverlow={true}
                     padding={{top: padData}}
-                    tickFormatter={noAxisTick}
+                    tickFormatter={yAxisTick}
                     ticks={ticks}
                 />
                 <Tooltip cursor={{strokeDasharray: '3 3'}}/>
