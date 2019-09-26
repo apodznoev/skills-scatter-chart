@@ -4,5 +4,5 @@ Call `ǹpm start` to view the chart.
 
 Adjust file `data.json` to change positions of the dots on the chart.
 
-Example representation:
+Example representation (available at https://avpod.de):
 ![alt text](skills.png "Example chart")
