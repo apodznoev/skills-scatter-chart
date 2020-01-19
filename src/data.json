@@ -135,16 +135,6 @@
     "can": 50
   },
   {
-    "name": "Git",
-    "want": 90,
-    "can": 90
-  },
-  {
-    "name": "Subversion",
-    "want": 20,
-    "can": 90
-  },
-  {
     "name": "Nginx",
     "want": 90,
     "can": 70
@@ -176,7 +166,7 @@
   },
   {
     "name": "Protobuf",
-    "want": 90,
+    "want": 80,
     "can": 50
   },
   {
@@ -212,6 +202,11 @@
   {
     "name": "Chat bots",
     "want": 90,
+    "can": 40
+  },
+  {
+    "name": "Cloud Foundry",
+    "want": 40,
     "can": 40
   }
 ]
